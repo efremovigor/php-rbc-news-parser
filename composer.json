@@ -24,7 +24,6 @@
     "php-dependency-injection": "1.0.*",
     "php-serializer": "1.0.*",
     "php-dynamic-service": "1.0.*",
-    "phpquery": "dev-master",
     "ext-dom": "*",
     "ext-libxml": "*",
     "ext-iconv": "*",

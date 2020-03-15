@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a23a89110cec2b3f1bf6e2a451818369",
+    "content-hash": "2796398dc72524f7044aaacd7417fd22",
     "packages": [
         {
             "name": "php-dependency-injection",
@@ -1704,7 +1704,11 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "7.2.*"
+        "php": "7.2.*",
+        "ext-dom": "*",
+        "ext-libxml": "*",
+        "ext-iconv": "*",
+        "ext-mbstring": "*"
     },
     "platform-dev": []
 }
