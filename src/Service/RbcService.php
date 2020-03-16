@@ -62,7 +62,7 @@ class RbcService implements NewsProviderInterface
             }
 
             $list->add($this->serializer->normalize(['title' => $item->textContent, 'url' => $item->getAttribute('href')], RbcNews::class));
-            if ($list->count() === 15) {
+            if ($list->count() === $count) {
                 break;
             }
         }
